@@ -35,7 +35,7 @@ function testOTP() {
 
   // Generar un código TOTP
   const totp = generateTOTP(key, timeStep, digits);
-  Logger.log("Código TOTP generado:", totp);
+  Logger.log("Código TOTP generado: " + totp);
 
   // Verificar un código TOTP
   const codeToVerify = "532254"; // código TOTP a verificar
