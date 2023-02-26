@@ -4,6 +4,10 @@ Este proyecto se basa en Google Apps Script, una plataforma de desarrollo basada
 
 ## Ejemplo
 
+Desde el dashboard de Google Apps Script podemos seleccionar la función *testOTP* para su ejecución o depuración, el resultado debería ser el siguiente:
+
+![Image](images/totp-run.png)
+
 Para probar el funcionamiento del Web App podemos utilizar *test_totp.py*:
 
 <pre><font color="#5FD700">❯</font> python3 test_totp.py
